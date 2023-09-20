@@ -1,0 +1,190 @@
+body{
+	background-color:#666666;
+	margin: 0px;
+	padding: 0px;
+	font: 14px verdana, solaimanLipi;
+}
+
+#container{
+	width: 900px;
+	height: auto;
+	margin: auto;
+	background-color: #ffffff;
+}
+#header{
+	width: 900px; 
+	height: auto;
+	margin: auto;
+}
+
+/*menu style start from here */
+#cssmenu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: auto;
+	position: relative;
+	display: block;
+	height: 36px;
+	text-transform: uppercase;
+	font-size: 12px;
+	background: transparent url('sundarban_image/OFF.gif') repeat-x top left;
+	font-family: helvetica, sans-serif;
+	border-bottom: 4px solid #004c99;
+	border-top: 1px solid #74b0c6;
+}
+
+#cssmenu li{
+	display: block;
+	float: left;
+	padding: 0px;
+	margin: 0px;	
+}
+
+#cssmenu li a{
+	display: block;
+	float: left;
+	color: #6d7078;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 12px 20px 0px 20px;
+	height: 24px;
+	background: transparent url('sundarban_image/DIVIDER.gif') no-repeat top right;
+}
+#cssmenu li a:hover{
+	background: transparent url('sundarban_image/hover.gif') no-repeat top right;
+}
+
+/*menu style end here*/
+
+
+/*box start here*/
+.box{
+	width: 900px;
+	height: 265px;
+	clear: both;
+	background-color: #325a59;
+	background-position: 50px 0px;
+}
+.clock{
+	float: left;
+	padding: 0px 3px 0px 0px; /*edited by me */
+}
+.text_content{
+	color: #ffffff;
+	width: 350px;
+	float: left;
+	padding: 20px 0 0 5px;
+}
+p.green{
+	color: #ffffff;
+	text-align: justify;
+}
+#right_nav{
+	list-style-type: none;
+	color: yellow;
+	width: 270px;
+	height: auto;
+	padding: 2px 0 0 20px;
+	float: right;
+}
+#right_nav ul li{
+	list-style-type: none;
+	color: yellow;
+	padding-top: 5px;
+	padding-left: 80px;
+}
+#right_nav ul li a{
+	color: yellow;
+}
+#right_nav img{
+	float: right;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+/*box end here*/
+
+
+/*main_content started*/
+#main_content{
+	width: auto;
+	height: auto;
+	clear: both;
+}
+#left_content{  /*will fill some gap thats why used margin 0px*/
+	width: 320px; /*acutal width 340 padding left+right=20*/
+	height: auto;
+	margin: 0px; /*edited by me used 0px instead of 10px;*/
+	float: left;
+	padding: 10px;
+	background-color: #f4feeb;
+}
+#left_content ul{  /*this property added by me */
+	padding-left: 73px;
+}
+#left_content ul li{
+	list-style-image: url(sundarban_image/Arrow.gif);
+}
+#left_content ul li ul li{
+	list-style-image: url(sundarban_image/Arrow2.gif);
+}
+/*left content ended*/
+#right_content{
+	width: 540px; 
+	height: auto;
+	margin: 0px 0 0 0;
+	float: left;
+	padding: 10px;
+	background-color: #ffffff;
+}
+.eagle{
+	float: left;
+}
+.crocodile{
+	float: right;
+	padding-top: 0px;
+}
+.pclear{
+	clear: both;
+	padding: 10px 0 0 0;
+}
+.tiger_walk{
+	float: right;
+	padding-top: 100px;
+}
+/*right contecnt ended*/
+/*main content ended*/
+
+/*footer started*/
+#footer{
+clear:both;
+width: auto;
+height: 37px;
+color: #fff;
+background-color: #480000;
+}
+#company{
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	
+}
+#company a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#company a:hover{
+	letter-spacing: 2px;
+	color: #ffffff;
+}
+.copyright{
+	float: right;
+	padding-right: 15px;
+	padding-top: 0px;
+}
+/*footer ended*/
+
+
+
+
+
