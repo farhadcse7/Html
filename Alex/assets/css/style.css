@@ -10,7 +10,7 @@ Version:1.0
 /* ============================
  Typography 
 ===============================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -116,4 +116,42 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .mb-80 {
   margin-bottom: 80px;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 20px 35px;
+  text-transform: capitalize;
+  border-radius: 1px solid transparent;
+}
+
+.btn-grey-outline {
+  border-color: #000;
+  background: transparent;
+}
+.btn-grey-outline:hover {
+  background: #362bc7;
+  color: #fff;
+  border-color: #362bc7;
+}
+
+.btn-sm {
+  padding: 10px 25px;
+}
+
+/*------------------
+Navigation Menu
+---------------*/
+.main-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+.main-menu ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 700px;
 }
