@@ -19,13 +19,15 @@
 
 <body>
 
-  <header>
+  <header class="header-menu">
     <div class="container">
       <div class="row">
         <!-- menu logo -->
         <div class="col-xl-3">
           <div class="header-logo">
-            <h3>Alex logo</h3>
+            <a href="index.html">
+              <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+            </a>
           </div>
         </div>
         <!-- main menu -->
@@ -44,6 +46,15 @@
                   <ul class="sub-menu">
                     <li> <a href="#">Team</a> </li>
                     <li><a href="#">Pricing</a></li>
+                    <!-- sub-sub menu -->
+                    <li class="menu-item-has-children">
+                      <a href="#">Second Pages</a>
+                      <ul class="sub-menu">
+                        <li> <a href="#">Team</a> </li>
+                        <li><a href="#">Pricing</a></li>
+                      </ul>
+                    </li>
+
                   </ul>
                 </li>
 
