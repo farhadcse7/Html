@@ -282,3 +282,36 @@ Navigation Menu
 .banner .banner-content .btn-theme {
   margin-right: 30px;
 }
+
+/* ============================
+ Feature Section
+===============================*/
+.feature {
+  margin-top: -170px;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-item {
+  padding: 50px 45px 70px;
+  background: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.feature-item h3 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.feature-item p {
+  margin-bottom: 0px;
+}
+.feature-item:hover {
+  -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+          box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+  background: #fff;
+}
+.feature-item:hover h3 {
+  color: #362bc7;
+}
