@@ -3,23 +3,30 @@
 ===============================*/
 
 /* For removing bootstrap*/
-ul,ol{
+ul,
+ol {
     margin: 0px;
     padding: 0px;
+    list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     transition: all .4s ease;
     color: black;
 
-    &:hover{
+    &:hover {
         color: $primary-color;
     }
 }
 
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
     color: inherit;
 }
 
@@ -27,43 +34,55 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
  Spacing 
 ===============================*/
 
-.mb-10{
+.mb-10 {
     margin-bottom: 10px;
 }
 
-.mb-20{
+.mb-20 {
     margin-bottom: 20px;
 }
 
-.mb-30{
+.mb-30 {
     margin-bottom: 30px;
 }
 
-.mb-40{
+.mb-40 {
     margin-bottom: 40px;
 }
 
-.mb-50{
+.mb-50 {
     margin-bottom: 50px;
 }
 
-.mb-60{
+.mb-60 {
     margin-bottom: 60px;
 }
 
-.mb-70{
+.mb-70 {
     margin-bottom: 70px;
 }
 
-.mb-80{
+.mb-80 {
     margin-bottom: 80px;
+}
+
+.pt-170 {
+    padding-top: 170px;
+}
+
+.pt-180 {
+    padding-top: 180px;
+}
+
+.pb-180 {
+    padding-bottom: 180px;
 }
 
 /* ============================
  Buttons
 ===============================*/
 
-.btn{
+.btn {
     font-family: $heading-font;
     font-size: 15px;
     font-weight: 500;
@@ -75,12 +94,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
     transition: all .4s ease;
 }
 
-.btn-grey-outline{
-    
+.btn-grey-outline {
+
     border-color: #000;
     background: transparent;
 
-    &:hover{
+    &:hover {
         background: $primary-color;
         color: #fff;
         border-color: $primary-color;
@@ -88,27 +107,42 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
     }
 }
 
-.btn-sm{
+.btn-sm {
     padding: 10px 25px;
 }
 
-.btn-theme{
+.btn-theme {
     background: $secondary-color;
     border-color: $secondary-color;
     color: #fff;
-    &:hover{
+
+    &:hover {
         background: $primary-color;
         border-color: $primary-color;
         color: #fff;
 
     }
-}  
+}
 
-.btn-white{
+.btn-theme-2 {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: #fff;
+
+    &:hover {
+        background: $secondary-color;
+        border-color: $secondary-color;
+        color: #fff;
+
+    }
+}
+
+.btn-white {
     background-color: #fff;
     border-color: #fff;
     color: $primary-color;
-    &:hover{
+
+    &:hover {
         background: $primary-color;
         border-color: $primary-color;
         color: #fff;

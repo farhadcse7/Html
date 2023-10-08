@@ -64,9 +64,11 @@ p {
  Common Styles 
 ===============================*/
 /* For removing bootstrap*/
-ul, ol {
+ul,
+ol {
   margin: 0px;
   padding: 0px;
+  list-style-type: none;
 }
 
 a {
@@ -79,7 +81,12 @@ a:hover {
   color: #362bc7;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
 }
 
@@ -116,6 +123,18 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .mb-80 {
   margin-bottom: 80px;
+}
+
+.pt-170 {
+  padding-top: 170px;
+}
+
+.pt-180 {
+  padding-top: 180px;
+}
+
+.pb-180 {
+  padding-bottom: 180px;
 }
 
 /* ============================
@@ -156,6 +175,17 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .btn-theme:hover {
   background: #362bc7;
   border-color: #362bc7;
+  color: #fff;
+}
+
+.btn-theme-2 {
+  background: #362bc7;
+  border-color: #362bc7;
+  color: #fff;
+}
+.btn-theme-2:hover {
+  background: #24e09b;
+  border-color: #24e09b;
   color: #fff;
 }
 
@@ -307,6 +337,14 @@ Navigation Menu
 .feature-item p {
   margin-bottom: 0px;
 }
+.feature-item.active {
+  -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+          box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+  background: #fff;
+}
+.feature-item.active h3 {
+  color: #362bc7;
+}
 .feature-item:hover {
   -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
           box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
@@ -314,4 +352,48 @@ Navigation Menu
 }
 .feature-item:hover h3 {
   color: #362bc7;
+}
+
+/* ============================
+ About Section
+===============================*/
+.about-img img {
+  -webkit-box-shadow: 0px 15px 30px 0px #ededed;
+          box-shadow: 0px 15px 30px 0px #ededed;
+}
+
+.subheading {
+  text-transform: uppercase;
+  color: #362bc7;
+}
+
+.about-content {
+  padding-left: 40px;
+}
+.about-content .subheading {
+  margin-bottom: 25px;
+}
+.about-content h2 {
+  margin-bottom: 20px;
+}
+.about-content p {
+  margin-bottom: 25px;
+}
+.about-content .list-item {
+  margin-bottom: 50px;
+}
+.about-content .list-item li {
+  margin-bottom: 25px;
+}
+.about-content .list-item li i {
+  float: left;
+  font-size: 18px;
+  margin-right: 15px;
+  color: #362bc7;
+}
+.about-content .list-item li h6 {
+  overflow: hidden;
+}
+.about-content .list-item li:last-child {
+  margin-bottom: 0px;
 }
